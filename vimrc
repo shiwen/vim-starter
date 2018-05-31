@@ -2,7 +2,7 @@
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
@@ -31,9 +31,6 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'pangloss/vim-javascript'
 Plugin 'ap/vim-css-color'
 Plugin 'miripiruni/CSScomb-for-Vim'
-
-"Color Schemes
-Plugin 'vim-scripts/wombat256.vim'
 
 call vundle#end()            " required
 " }}}
@@ -174,5 +171,3 @@ map <Space>w <Plug>CamelCaseMotion_w
 map <Space>b <Plug>CamelCaseMotion_b
 map <Space>e <Plug>CamelCaseMotion_e
 " }}}
-
-colorscheme wombat256mod
