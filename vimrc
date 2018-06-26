@@ -1,3 +1,5 @@
+let mapleader = ","
+
 " Vundle {{{
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -166,8 +168,15 @@ set pastetoggle=<F5><F5>
 vnoremap > ><CR>gv
 vnoremap < <<CR>gv
 
-" "Camel case motion (with shift)
+"Camel case motion (with shift)
 map <Space>w <Plug>CamelCaseMotion_w
 map <Space>b <Plug>CamelCaseMotion_b
 map <Space>e <Plug>CamelCaseMotion_e
+" }}}
+
+" Custom configuration {{{
+map <leader>h :wincmd h<CR>
+map <leader>j :wincmd j<CR>
+map <leader>k :wincmd k<CR>
+map <leader>l :wincmd l<CR>
 " }}}
